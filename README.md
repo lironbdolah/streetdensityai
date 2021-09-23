@@ -14,6 +14,11 @@
 No need bla bla take a loop at what is busy
 
 **Features:**
-- 1
-- 2
+- Features 1
+- Features 2
 
+### How to run
+
+```shell
+python streetdensityai.py calculate --dataset-folder <path-to-dataset> --coords-file <path-to-coords-file>
+```
