@@ -1,0 +1,13 @@
+
+path: C:/Users/ADMIN/Documents/Ds/geo/dataset # dataset root dir
+train:  C:/Users/ADMIN/Documents/Ds/geo/dataset/images/train  # train images
+val:  C:/Users/ADMIN/Documents/Ds/geo/dataset/images/train  # val images
+test:  
+
+
+# Classes
+
+nc: 5  # number of classes
+names: ['person', 'car', 'motorcycle', 'bus', 'truck']  # class names
+
+
