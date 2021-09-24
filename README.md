@@ -13,7 +13,9 @@
 
 No need bla bla take a loop at what is busy
 
-![streetdensityai intro](assets/streetdensityai.png)
+<p align="center">
+  <img src="assets/streetdensityai.png" />
+</p>
 
 **Features:**
 - Features 1
