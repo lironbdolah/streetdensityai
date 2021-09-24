@@ -14,7 +14,7 @@
 No need bla bla take a loop at what is busy
 
 <p align="center">
-![streetdensityai intro](assets/streetdensityai.png)
+  <img src="assets/streetdensityai.png" />
 </p>
 
 **Features:**
