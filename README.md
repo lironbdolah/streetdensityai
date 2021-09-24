@@ -1,7 +1,7 @@
 # streetdensityai
 
 <p align="center">
-<img alt="Street Density ai" src="docs/assets/logo-with-text.svg" width="300">
+<img alt="Street Density ai" src="assets/logo-with-text.svg" width="300">
 </p>
 
 <p align="center">
@@ -12,6 +12,8 @@
 </p>
 
 No need bla bla take a loop at what is busy
+
+![streetdensityai intro](assets/streetdensityai.png)
 
 **Features:**
 - Features 1
