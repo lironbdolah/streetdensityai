@@ -52,7 +52,7 @@ python src/steetdensityai.py --labels <labels path that were created after the i
 #### notes
 - csv requires 2 columns to display the coordinates named: "longtitude" and "lattitude"
 - the code asuumes that the coordinates are sorted by the images name.
-- If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images),you can set the amount of images per coodinate with : ```--img-per- cord <integer of images per coordinate > ```
+- If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images),you can set the amount of images per coodinate with : ```--img-per-cord <integer of images per coordinate > ```
 
  
 
