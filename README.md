@@ -10,7 +10,7 @@
  <img alt="last commit" src=https://img.shields.io/github/last-commit/lironbdolah/streetdensityai>
 
 </p>
-This YoloV5 based model is fit to detect people and different types of land vehicles,\n and displaying their density on a fitted map, according to their coordinates and detected labels.
+This YoloV5 based model is fit to detect people and different types of land vehicles,\ and displaying their density on a fitted map, according to their coordinates and detected labels.
 
 **Features:**
 
