@@ -33,7 +33,7 @@ python src/yolov5/detect.py --source  <path to images folder> --project <output 
 ```
 running this action will save your images with the anchor boxes around objects that the model found:
 
-<img src="assets/streetdensityai.png" />
+<img src="assets/step1.png" />
 
 in addition, it will save the detcted object labels for each image.
 
