@@ -18,7 +18,7 @@ and displaying their relative density on a fiited map, acoording to their coordi
 
 - Multiple Objects Detection
 - Trained on 3,000 street view Images
-- Fitted and adjusttable Map
+- Fitted and adjustable Map
 
 <p align="center">
   <img src="assets/streetdensityai.png" />
