@@ -23,7 +23,7 @@ No need bla bla take a loop at what is busy
 
 ### How to run
 
-#Step 1: 
+****Step 1:**** 
 
 Use detect.py to identify people and land vehicles on streetview images:
 
