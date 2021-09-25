@@ -27,9 +27,13 @@ This YoloV5 based model is fit to detect people and different types of land vehi
 </p>
 
 
-## Manual
+## Requierments:
+- in order to plot the map: ```pip install mplleaflet ```
+- to use YoloV5, see: [a link](https://github.com/lironbdolah/streetdensityai/blob/main/src/yolov5/requirements.txt)
+- 
 
-Download the files 
+
+
 
 ## Usage
 
