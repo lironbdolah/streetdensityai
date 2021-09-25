@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img alt="Street Density ai" src="assets/test.png" width="400">
+<img alt="Street Density ai" src="assets/test.png" width="300">
 </p>
 
 <p align="center">
@@ -12,12 +12,11 @@
 </p>
 
 This YoloV5 based model is fit to detect people and diffrent types of land veichels,
-and displaying their density on a fiited map, acoording to their coordinates and detected labels. 
+and displaying their relative density on a fiited map, acoording to their coordinates and detected labels. 
 
 **Features:**
-- Features 1
-- Features 2
-
+- Multiple Objects Detection
+- 
 
 <p align="center">
   <img src="assets/streetdensityai.png" />
@@ -25,9 +24,9 @@ and displaying their density on a fiited map, acoording to their coordinates and
 
 
 
-## How to run
+## Quickstrat
 
-****Step 1:**** 
+****Step 1: Object Detection**** 
 
 identifies people and land vehicles in your images:
 
@@ -43,7 +42,7 @@ in addition, it will save the detcted object labels for each image.
 
 
 
- ****Step 2:****
+ ****Step 2: Plotting a fitted map****
  
  display the density on a fitted map (requiers as csv file with the coordinats)
  
