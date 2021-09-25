@@ -1,7 +1,7 @@
 
 
 <p align="center">
-<img alt="Street Density ai" src="assets/test.png" width="300">
+<img alt="Street Density ai" src="assets/test.png" width="350">
 </p>
 
 <p align="center">
