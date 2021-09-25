@@ -11,15 +11,19 @@
 
 </p>
 
-Detecting image
+This YoloV5 based model is fit to detect people and diffrent types of land veichels,
+and displaying their density on a fiited map, acoording to their coordinates and detected labels. 
+
+**Features:**
+- Features 1
+- Features 2
+
 
 <p align="center">
   <img src="assets/streetdensityai.png" />
 </p>
 
-**Features:**
-- Features 1
-- Features 2
+
 
 ## How to run
 
