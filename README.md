@@ -11,7 +11,7 @@
 
 </p>
 
-No need bla bla take a loop at what is busy
+Detecting image
 
 <p align="center">
   <img src="assets/streetdensityai.png" />
