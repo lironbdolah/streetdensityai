@@ -21,7 +21,7 @@ Detecting image
 - Features 1
 - Features 2
 
-### How to run
+## How to run
 
 ****Step 1:**** 
 
