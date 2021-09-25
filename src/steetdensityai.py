@@ -72,7 +72,7 @@ def density_score(label_path, img_per_cord):
 
 def display_map(df, output): #scatter plot to show pricing range and population by location
     lats = df['latitude']
-    lons = df['longtitude']
+    lons = df['longitude']
     score = df['score']
     print(output)
     cmap = plt.cm.get_cmap("jet")
