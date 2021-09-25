@@ -45,14 +45,14 @@ running this action will save your images with the anchor boxes around objects t
 
 <img src="assets/step1.png" />
 
-(if you dont want to save the labeld images, just add  ```--nosave ``` to the command above)
-in addition, it will save the detcted object labels for each image.
+(if you don't want to save the labeled images, just add  ```--nosave ``` to the command above)
+in addition, it will save the detected object labels for each image.
 
 
 
  ****Plotting a fitted map:****
  
- display the density on a fitted map (requiers as csv file with the coordinats)
+ display the density on a fitted map (requires a .csv file)
  
 ```shell
 python src/steetdensityai.py --labels <labels path that were created after the images detection>
@@ -62,9 +62,9 @@ python src/steetdensityai.py --labels <labels path that were created after the i
 <img src="assets/step2.png" />
 
 #### notes
-- csv requires 2 columns to display the coordinates named: "longtitude" and "lattitude"
-- the code asuumes that the coordinates are sorted by the images name.
-- If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images), you can set the amount of images per coodinate with : ```--img-per-cord <integer of images per coordinate > ```
+- csv requires 2 columns to display the coordinates named: "longitude" and "latitude"
+- the code asumes that the coordinates are sorted by the image's name.
+- If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images), you can set the number of images per coordinate with : ```--img-per-cord <integer of images per coordinate > ```
 
  
 ## Simple Example
