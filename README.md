@@ -11,15 +11,15 @@
 
 </p>
 
-This YoloV5 based model is fit to detect people and diffrent types of land veichels,
-and displaying their relative density on a fiited map, acoording to their coordinates and detected labels. 
+This YoloV5 based model is fit to detect people and different types of land vehicles,<br /> and displaying their density on a fitted map, according to their coordinates and detected labels. <br />
+
 
 **Features:**
 
 - Multiple Objects Detection
 - Trained on 3,000 street view Images
 - Exports Fitted and adjustable Maps
-- Calculates a density score according to an image detected labels 
+- Calculates a density score according to image detected labels 
 
 
 <p align="center">
@@ -45,13 +45,14 @@ running this action will save your images with the anchor boxes around objects t
 
 <img src="assets/step1.png" />
 
-in addition, it will save the detcted object labels for each image.
+(if you don't want to save the labeled images, just add  ```--nosave ``` to the command above)
+in addition, it will save the detected object labels for each image.
 
 
 
  ****Plotting a fitted map:****
  
- display the density on a fitted map (requiers as csv file with the coordinats)
+ display the density on a fitted map (requires a .csv file)
  
 ```shell
 python src/steetdensityai.py --labels <labels path that were created after the images detection>
@@ -61,9 +62,27 @@ python src/steetdensityai.py --labels <labels path that were created after the i
 <img src="assets/step2.png" />
 
 #### notes
-- csv requires 2 columns to display the coordinates named: "longtitude" and "lattitude"
-- the code asuumes that the coordinates are sorted by the images name.
-- If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images), you can set the amount of images per coodinate with : ```--img-per-cord <integer of images per coordinate > ```
+- csv requires 2 columns to display the coordinates named: "longitude" and "latitude"
+- the code asumes that the coordinates are sorted by the image's name.
+- If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images), you can set the number of images per coordinate with : ```--img-per-cord <integer of images per coordinate > ```
 
  
 ## Simple Example
+
+```shell
+# detect objects: 
+python src/yolov5/detect.py --source  example/images --project example/images
+--name detected_images --save-txt --conf 0.4
+
+# creates a label folder in example/images/detected_images named "labels"
+# saves the images with the newly found objects anchor, and each image labels 
+
+
+#plot desnity map
+python src/steetdensityai.py --labels example/images/detected_images/labels
+--coordinates example/coordinates.csv  --images example/images
+--img-per-cord 4 --output example/images                                     # will save the map.html file to example/images
+
+
+```
+
