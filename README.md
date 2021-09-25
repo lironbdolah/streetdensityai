@@ -11,7 +11,7 @@
 
 </p>
 
-This [YoloV5](https://pytorch.org/hub/ultralytics_yolov5/)YoloV5 based model is fit to detect people and different types of land vehicles,<br /> and displaying their density on a fitted map, according to their coordinates and detected labels. <br />
+This [YoloV5](https://pytorch.org/hub/ultralytics_yolov5/) based model is fit to detect people and different types of land vehicles,<br /> and displaying their density on a fitted map, according to their coordinates and detected labels. <br />
 
 
 **Features:**
