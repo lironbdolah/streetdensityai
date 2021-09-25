@@ -66,4 +66,4 @@ python src/steetdensityai.py --labels <labels path that were created after the i
 - If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images), you can set the amount of images per coodinate with : ```--img-per-cord <integer of images per coordinate > ```
 
  
-
+## Simple Example
