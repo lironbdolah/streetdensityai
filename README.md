@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-https://img.shields.io/github/license/lironbdolah/streetdensityai)](https://github.com/lironbdolah/streetdensityai/blob/main/LICENSE
+[![GitHub license](https://img.shields.io/github/license/lironbdolah/streetdensityai)](https://github.com/lironbdolah/streetdensityai/blob/main/LICENSE)]
   
 
 </p>
