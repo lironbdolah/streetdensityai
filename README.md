@@ -25,9 +25,27 @@ No need bla bla take a loop at what is busy
 
 ****Step 1:**** 
 
-Use detect.py to identify people and land vehicles on streetview images:
+identifies people and land vehicles in your images:
 
 ```shell
 python src/yolov5/detect.py --source  <path to images folder> --project <output path> --name <output folder name> --save-txt --conf 0.3
 ```
+running this action will save your images with the anchor boxes around objects that the model found:
+
+<img src="assets/streetdensityai.png" />
+
+in addition, it will save the detcted object labels for each image.
+
+
+
+ ****Step 2:****
+ 
+ display the density on a fitted map (requiers as csv file with the coordinats)
+ 
+```shell
+python src/steetdensityai.py --labels <labels path that were created after the images detection>
+--coordinates <path-to-csv/file.csv>  --images <path to images folder>
+--img-per-cord 1 --output <output path>
+```
+
 
