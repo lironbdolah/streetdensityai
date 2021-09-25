@@ -27,10 +27,13 @@ and displaying their relative density on a fiited map, acoording to their coordi
 </p>
 
 
+## Manual
 
-## Quickstrat
+Download the files 
 
-****Step 1: Object Detection**** 
+## Usage
+
+****Object Detection:**** 
 
 identifies people and land vehicles in your images:
 
@@ -46,7 +49,7 @@ in addition, it will save the detcted object labels for each image.
 
 
 
- ****Step 2: Plotting a fitted map****
+ ****Plotting a fitted map:****
  
  display the density on a fitted map (requiers as csv file with the coordinats)
  
