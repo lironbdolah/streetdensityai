@@ -19,7 +19,7 @@ This YoloV5 based model is fit to detect people and different types of land vehi
 - Multiple Objects Detection
 - Trained on 3,000 street view Images
 - Exports Fitted and adjustable Maps
-- Calculates a density score according to an image detected labels 
+- Calculates a density score according to image detected labels 
 
 
 <p align="center">
