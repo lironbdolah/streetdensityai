@@ -1,13 +1,13 @@
 
 
 <p align="center">
-<img alt="Street Density ai" src="assets/test.png" width="300">
+<img alt="Street Density ai" src="assets/test.png" width="350">
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/licence/lironbdolah/streetdensityai" alt="License">
-  <a href="https://github.com/aporia-ai/streetdensityai/issues"><img src="https://img.shields.io/github/issues/lironbdolah/streetdensityai" alt="Issues"></a>
-  <img src="https://img.shields.io/github/last-commit/lironbdolah/streetdensityai" alt="Last Commit">
+<img alt="Licence" src=https://img.shields.io/github/license/lironbdolah/streetdensityai>
+ <img alt="Issues" src=https://img.shields.io/github/issues/lironbdolah/streetdensityai>
+ <img alt="last commit" src=https://img.shields.io/github/last-commit/lironbdolah/streetdensityai>
 
 </p>
 
@@ -15,18 +15,25 @@ This YoloV5 based model is fit to detect people and diffrent types of land veich
 and displaying their relative density on a fiited map, acoording to their coordinates and detected labels. 
 
 **Features:**
+
 - Multiple Objects Detection
-- 
+- Trained on 3,000 street view Images
+- Exports Fitted and adjustable Maps
+- Calculates a density score according to an image detected labels 
+
 
 <p align="center">
   <img src="assets/streetdensityai.png" />
 </p>
 
 
+## Manual
 
-## Quickstrat
+Download the files 
 
-****Step 1: Object Detection**** 
+## Usage
+
+****Object Detection:**** 
 
 identifies people and land vehicles in your images:
 
@@ -42,7 +49,7 @@ in addition, it will save the detcted object labels for each image.
 
 
 
- ****Step 2: Plotting a fitted map****
+ ****Plotting a fitted map:****
  
  display the density on a fitted map (requiers as csv file with the coordinats)
  
@@ -59,4 +66,4 @@ python src/steetdensityai.py --labels <labels path that were created after the i
 - If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images), you can set the amount of images per coodinate with : ```--img-per-cord <integer of images per coordinate > ```
 
  
-
+## Simple Example
