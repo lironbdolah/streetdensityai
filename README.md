@@ -7,7 +7,8 @@
 <p align="center">
 <img alt="Licence" src=https://img.shields.io/github/license/lironbdolah/streetdensityai>
  <img alt="Issues" src=https://img.shields.io/github/issues/lironbdolah/streetdensityai>
-  
+ <img alt="last commit" src=https://img.shields.io/github/last-commit/lironbdolah/streetdensityai>
+
 </p>
 
 This YoloV5 based model is fit to detect people and diffrent types of land veichels,
