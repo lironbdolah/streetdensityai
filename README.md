@@ -15,8 +15,10 @@ This YoloV5 based model is fit to detect people and diffrent types of land veich
 and displaying their relative density on a fiited map, acoording to their coordinates and detected labels. 
 
 **Features:**
+
 - Multiple Objects Detection
-- 
+- Trained on 3,000 street view Images
+- Fitted and adjusttable Map
 
 <p align="center">
   <img src="assets/streetdensityai.png" />
