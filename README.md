@@ -35,7 +35,7 @@ This [YoloV5](https://pytorch.org/hub/ultralytics_yolov5/) based model is fit to
 
 
 
-## Usage
+## Usage:
 
 ****Object Detection:**** 
 
@@ -71,7 +71,7 @@ python src/steetdensityai.py --labels <labels path that were created after the i
 - If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images), you can set the number of images per coordinate with : ```--img-per-cord <integer of images per coordinate > ```
 
  
-## Simple Example
+## Simple Example:
 
 ```shell
 # detect objects: 
