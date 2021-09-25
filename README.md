@@ -45,6 +45,7 @@ running this action will save your images with the anchor boxes around objects t
 
 <img src="assets/step1.png" />
 
+(if you dont want to save the labeld images, just add  ```--nosave ``` to the command above)
 in addition, it will save the detcted object labels for each image.
 
 
@@ -68,6 +69,20 @@ python src/steetdensityai.py --labels <labels path that were created after the i
  
 ## Simple Example
 
-```posh
-cd example
+```shell
+# detect objects: 
+python src/yolov5/detect.py --source  example/images --project example/images
+--name detected_images --save-txt --conf 0.4
+
+# creates a label folder in example/images/detected_images named "labels"
+# saves the images with the newly found objects anchor, and each image labels 
+
+
+#plot desnity map
+python src/steetdensityai.py --labels example/images/detected_images/labels
+--coordinates example/coordinates.csv  --images example/images
+--img-per-cord 4 --output example/images                                     # will save the map.html file to example/images
+
+
 ```
+
