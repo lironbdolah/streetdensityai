@@ -18,7 +18,8 @@ and displaying their relative density on a fiited map, acoording to their coordi
 
 - Multiple Objects Detection
 - Trained on 3,000 street view Images
-- Fitted and adjustable Map
+- Exports Fitted and adjustable Maps
+- Calculates a density score according to an image detected labels 
 
 <p align="center">
   <img src="assets/streetdensityai.png" />
