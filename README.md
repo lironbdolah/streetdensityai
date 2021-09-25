@@ -23,6 +23,11 @@ No need bla bla take a loop at what is busy
 
 ### How to run
 
+#Step 1: 
+
+Use detect.py to identify people and land vehicles on streetview images:
+
 ```shell
-python streetdensityai.py calculate --dataset-folder <path-to-dataset> --coords-file <path-to-coords-file>
+python src/yolov5/detect.py --source  <path to images folder> --project <output path> --name <output folder name> --save-txt --conf 0.3
 ```
+
