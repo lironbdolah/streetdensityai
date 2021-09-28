@@ -11,7 +11,7 @@
 
 </p>
 
-This YoloV5 based model is fit to detect people and different types of land vehicles,<br /> and displaying their density on a fitted map, according to their coordinates and detected labels. <br />
+This [YoloV5](https://pytorch.org/hub/ultralytics_yolov5/) based model is fit to detect people and different types of land vehicles,<br /> and displaying their density on a fitted map, according to their coordinates and detected labels. <br />
 
 
 **Features:**
@@ -27,11 +27,15 @@ This YoloV5 based model is fit to detect people and different types of land vehi
 </p>
 
 
-## Manual
+## Requierments:
+- in order to plot the map: ```pip install mplleaflet ```
+- to use YoloV5, see: [Yolov5_requirements](https://github.com/lironbdolah/streetdensityai/blob/main/src/yolov5/requirements.txt)
 
-Download the files 
 
-## Usage
+
+
+
+## Usage:
 
 ****Object Detection:**** 
 
@@ -67,21 +71,21 @@ python src/steetdensityai.py --labels <labels path that were created after the i
 - If you have multiple images per coordinate (for example if you have a 360 view, divided to 4 images), you can set the number of images per coordinate with : ```--img-per-cord <integer of images per coordinate > ```
 
  
-## Simple Example
+## Simple Example:
 
 ```shell
 # detect objects: 
-python src/yolov5/detect.py --source  example/images --project example/images
---name detected_images --save-txt --conf 0.4
+python src/yolov5/detect.py --source example/images --project example/images --name detected_images --save-txt --conf 0.4
+
 
 # creates a label folder in example/images/detected_images named "labels"
 # saves the images with the newly found objects anchor, and each image labels 
 
 
 #plot desnity map
-python src/steetdensityai.py --labels example/images/detected_images/labels
---coordinates example/coordinates.csv  --images example/images
---img-per-cord 4 --output example/images                                     # will save the map.html file to example/images
+python src/steetdensityai.py --labels example/images/detected_images/labels --coordinates example/coordinates.csv  --images example/images --img-per-cord 4 --output example/images
+
+ # will save the map.html file to example/images
 
 
 ```
